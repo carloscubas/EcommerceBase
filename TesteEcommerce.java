@@ -2,6 +2,8 @@ import java.util.*;
 
 public class TesteEcommerce
 {
+    
+    
     public static void main(String[] args){
         Carrinho car = new Carrinho();
         Pedido p1 = new Pedido(new Computador("MackBook", 60000.0), 3, new Computador("MackBook", 60000.0));
