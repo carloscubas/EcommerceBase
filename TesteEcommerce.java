@@ -2,7 +2,7 @@ import java.util.*;
 
 public class TesteEcommerce
 {
-    
+    // esta classe e um teste
     
     public static void main(String[] args){
         Carrinho car = new Carrinho();
