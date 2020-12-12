@@ -33,4 +33,10 @@ public class Carrinho
    public List<Pedido> listaPedidos(){
        return pedidos;
    }
+   
+   public void efetuarPagamento(Pagamento pagamento){
+       pagamento.valorPagamento(this.totalCarrinho());
+       pagamento.finalizaPagamento();
+   }
+   
 }

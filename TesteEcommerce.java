@@ -26,6 +26,10 @@ public class TesteEcommerce
             System.out.println(p.produto.nome + " : " + p.produto.valor + " : " + p.quantidade);
         }
         
+        Pagamento meioPagamento = new PagamentoCartao();
+        car.efetuarPagamento(meioPagamento);
+        
+        
         
     }
 }
